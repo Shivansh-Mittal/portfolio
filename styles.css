@@ -183,6 +183,8 @@ nav ul li a:hover::after {
 .services-list div i {
     font-size: 60px;
     margin-bottom: 30px;
+    color: #ce7777;
+    transition: color 0.5s;
 }
 
 .services-list div h2 {
@@ -204,10 +206,14 @@ nav ul li a:hover::after {
     transform: translateY(-10px);
 }
 
+.services-list div:hover i {
+    color: #fff;
+}
+
 /* ------portfolio----------- */
 
 #portfolio {
-    padding: 50px 0;
+    padding: 50px 0 10px;
     background: #355592;
 }
 
@@ -277,16 +283,15 @@ nav ul li a:hover::after {
 }
 
 .btn {
-    margin: 30px auto;
-    padding: 14px 50px;
-    text-align: center;
     display: block;
-    background: black;
+    margin: 30px auto 10px;
     width: fit-content;
-    border-radius: 10px;
+    border: 1px solid #ce7777;
+    padding: 14px 50px;
+    border-radius: 8px;
     text-decoration: none;
     color: white;
-    transition: transform 0.5s;
+    transition: background 0.5s, transform 0.5s;
 }
 
 .btn:hover {
@@ -297,6 +302,7 @@ nav ul li a:hover::after {
 /* -----------contact----------- */
 
 #contact {
+    padding-top: 20px;
     background: #2b3a55;
 }
 
@@ -326,7 +332,7 @@ nav ul li a:hover::after {
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
-    color: #355592;
+    color: #fff;
     display: inline-block;
     transition: transform 0.5s;
 }
@@ -368,8 +374,8 @@ form .btn2 {
 .copyright {
     width: 100%;
     text-align: center;
-    padding: 15px 0;
-    background: #355592;
+    padding: 10px 0;
+    /* background: #355592; */
     font-weight: 300;
     margin-top: 20px;
 }
