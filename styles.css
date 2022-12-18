@@ -466,3 +466,9 @@ nav .fas{
         margin-top: 40px;
     }
 }
+
+#msg {
+    color: #61b752;
+    margin-top: 0;
+    display: block;
+}
