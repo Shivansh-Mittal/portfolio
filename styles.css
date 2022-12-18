@@ -1,8 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
 }
 
 html {
@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background: #080808;
+    background: #ce7777;
     color: #fff;
 }
 
