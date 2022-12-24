@@ -29,7 +29,7 @@
                 <i class="fas fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p>Front-End Engineer</p>
+                <p><span class="auto-typed role"></span></p>
                 <h1>Hello, I'm <span>Shivansh</span><br>Mittal From India</h1>
             </div>
         </div>
@@ -178,6 +178,15 @@
     </div>
 
     <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-typed", {
+            strings: ["Front-end Engineer", "Software Engineer", "Angular Developer"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        })
+    </script>
 </body>
 
 </html>
